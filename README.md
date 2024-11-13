@@ -14,8 +14,6 @@ Installation
 Clone the Repository
 Clone the repository to your local machine:
 
-bash
-Copy code
 git clone https://github.com/ReesTheBeast/reverse-shell-client-server.git
 cd reverse-shell-client-server
 Configure Server and Client
@@ -24,21 +22,16 @@ Update the IP address and port settings as needed in the start_listener (server)
 Install Required Libraries
 Install any dependencies with:
 
-bash
-Copy code
 pip install colormath
 Usage
 Step 1: Start the Server
 Run the server to start listening for incoming connections:
-bash
-Copy code
+
 python server.py
 The server will output a message when a client connects.
 Step 2: Start the Client
 On the client machine, run:
 
-bash
-Copy code
 python client.py
 The client will attempt to connect to the server. Upon a successful connection, the server can begin sending commands.
 
@@ -50,8 +43,7 @@ To close the connection, type exit or quit on the server-side. This will termina
 Example Commands
 Here are some example commands to try:
 
-bash
-Copy code
+
 ls           # Lists files in the current directory
 whoami       # Prints the username on the client machine
 systeminfo   # (Windows) Shows system information
